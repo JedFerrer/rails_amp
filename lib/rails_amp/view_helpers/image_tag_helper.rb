@@ -7,7 +7,7 @@ module RailsAmp
       AMP_IMG_PERMITTED_ATTRIBUTES = %w[
         src srcset alt attribution height width
         fallback heights layout media noloading on placeholder sizes
-        class role option tabindex
+        class role option tabindex selected
       ].freeze
 
       # ref: https://github.com/rails/rails/blob/master/actionview/lib/action_view/helpers/asset_tag_helper.rb#L228
